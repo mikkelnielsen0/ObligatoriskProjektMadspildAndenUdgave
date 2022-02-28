@@ -1,0 +1,86 @@
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+@media (min-width:468px) {
+    .linkbar div {
+        display: block;
+        border:2px #ccc solid;
+        padding: 30px;
+        justify-content: space-around;
+    }
+    .container-1 div {
+        display: contents;
+        border:2px #ccc solid;
+        padding: 30px;
+        background-color: blue;
+        justify-content: space-around;
+    }
+    .container-2 div{
+        display: contents;
+        border:2px #ccc solid;
+        padding: 30px;
+        background-color: whitesmoke;
+        justify-content: space-around;
+    }
+    .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 20px 25px;
+        text-decoration: none;
+        font-size: 17px;
+        border-bottom: 3px solid transparent;
+    }
+    .topnav a:hover {
+        border-bottom: 2px solid gray;
+    }
+    .topnav a.active {
+        border-bottom: 2px solid grey;
+    }
+}
+.linkbar{
+    display: block;
+    flex-wrap: wrap;
+    order: 4;
+    background-color: darkgray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+.container-1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.container-2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.box-1{
+    flex:2;
+    order:1
+}
+.box-2{
+    flex:1;
+    order:2
+}
+.box-3{
+    flex:1;
+    order:3
+}
+.box-4{
+    flex:2;
+    order:1
+}
+.box-5{
+    flex:1;
+    order:2
+}
+.box-6{
+    flex:1;
+    order:3
+}
