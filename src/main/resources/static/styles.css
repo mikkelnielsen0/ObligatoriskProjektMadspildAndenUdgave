@@ -1,7 +1,7 @@
 
 .topnav {
     background-color: #333;
-    overflow: hidden;
+    overflow: auto;
 }
 @media (min-width:468px) {
     .linkbar div {
@@ -53,7 +53,7 @@
 
 }
 .container-1 {
-    display: flex;
+    display: contents;
     flex-wrap: wrap;
 }
 .container-2 {
